@@ -1,0 +1,11 @@
+Detect objects in image:
+
+python clip_detector_with_proposals.py --image "path/to/image.jpg"
+
+Detect from video:
+
+python clip_detector_with_proposals.py --video "path/to/video.mp4"
+
+Evaluate accuracy:
+
+python clip_detector_with_proposals.py --eval "path/to/eval_dataset"
